@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Обработчик: {{handler}}</title>
+    <style>
+        body {
+            background: #f0f2f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px;
+            color: #333;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            max-width: 700px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+        h1 {
+            margin-top: 0;
+        }
+        pre {
+            background: #f7f9fc;
+            padding: 20px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h1>🔧 Обработчик: {{handler}}</h1>
+    <h2>🧩 Query-параметры</h2>
+    <pre>{{query}}</pre>
+    <h2>📨 Заголовки</h2>
+    <pre>{{headers}}</pre>
+    <h2>📦 Тело запроса</h2>
+    <pre>{{body}}</pre>
+</div>
+</body>
+</html>
